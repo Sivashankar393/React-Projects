@@ -1,14 +1,23 @@
-import { Component } from "react";
 import "./DestinationStyles.css";
+import React, { Component } from 'react'
 
 class DestinationData extends Component {
   render() {
     return (
-      <div>
-        <h1>Your Code Here</h1>
+      <div className={this.props.className}>
+      <div className="des-text">
+        <h2>{this.props.heading}</h2>
+        <p>{this.props.text}</p>
       </div>
-    );
+      <div className="image">
+        <img alt="img" src={this.props.img1}/>
+        <img alt="img" src={this.props.img2}/>
+      </div><hr/>
+      
+    </div>
+    )
   }
 }
 
-export default DestinationData;
+export default DestinationData
+
