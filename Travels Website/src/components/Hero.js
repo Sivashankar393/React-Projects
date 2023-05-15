@@ -1,17 +1,13 @@
-import "./Herostyle.css";
-function Hero (props){
-    return (<>
-    <div className={props.cName}>
-        <img alt="HerpImg" src={props.heroImg}/>
+import "./HeroStyles.css";
 
-        <div className="hero-text">
-            <h1>{props.title}</h1>
-            <p>{props.text}</p>
-            <a href={props.url} className="{props.btnClass}">Travel Plan</a>
-
-        </div>
-    </div>
-        </>)
-    
+function Hero(props) {
+  return (
+    <>
+      <div>
+        <h1>Your Code Here</h1>
+      </div>
+    </>
+  );
 }
+
 export default Hero;
