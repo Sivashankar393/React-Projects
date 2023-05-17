@@ -7,7 +7,13 @@ import AboutUs from "../components/AboutUs";
 function About() {
   return (
     <>
-      <h1>Call The Components</h1>
+      <Navbar/>
+    <Hero
+    cName="hero-mid"
+    heroImg={AboutImg}
+    title="About"
+    btnClass="hide"
+    />
     </>
   );
 }

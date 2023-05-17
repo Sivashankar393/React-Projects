@@ -7,9 +7,16 @@ import ContactForm from "../components/ContactForm";
 function Contact() {
   return (
     <>
-      <h1>Call The Components</h1>
+       <Navbar/>
+    <Hero
+    cName="hero-mid"
+    heroImg={AboutImg}
+    title="Contact"
+    btnClass="hide"
+    />
     </>
   );
 }
 
 export default Contact;
+ 
