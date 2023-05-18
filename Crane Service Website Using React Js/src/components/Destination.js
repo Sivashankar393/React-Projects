@@ -1,7 +1,7 @@
-import Mountain1 from "../assets/imag1.jpg";
-import Mountain2 from "../assets/imag2.jpg";
-import Mountain6 from "../assets/imag6.jpg";
+import Mountain3 from "../assets/imag3.jpg";
 import Mountain5 from "../assets/imag5.jpg";
+import Mountain7 from "../assets/imag7.jpg";
+import Mountain8 from "../assets/imag8.jpg";
 import DestinationData from "./DestinationData";
 import "./Destinationstyle.css";
 
@@ -9,25 +9,53 @@ import "./Destinationstyle.css";
 const Destination = () =>{
     return(
         <div className="destination">
-          <h1>Popular Destination</h1>
-          <p>
-            Tours give you the opportunity to see a lot,within a time frame
-          </p>
+          <h1>Who We Are !</h1>  
+        
+          <li>Kongu Cranes rental service is one of the largest in Karur, TamilNadu. Our services ensure the timeliness and efficiency of your resources. We have the resources and the manpower to specialize in maintenance shutdowns, plant installations and equipment removal.
 
-   <DestinationData
-   heading="Taal volvano,Batanges"
-   text="Construction site with crane and building Word Template ... Add this service and get a template in your business colors within next 24 hours Service Cost ..."
-   img1={Mountain1}
-   img2={Mountain2}
-   img6={Mountain6}
-   img5={Mountain5}
+​</li>
+<li>With a huge network of service team expertise and a complete range of service products, Kongu Cranes Service provides all over Karur and other parts like Salem, Trichy and Namakkal.</li>
 
-   />
+<li>We are "An Equipment Rental Company" and recently we've added few new assets to our list which we hope will be helpful to your organization with logistics and material handling needs. This includes HYDRAULIC CRANES, TELESCOPIC CRANES, CRAWLER CRANES, TOWER CRANES, FORKLIFTS, and TOWING VEHICLES.</li>
+
+   <div>
+
   <DestinationData
   className ="first-des-reverse"
-  heading="Mt.daguldul,Batangas"
-  text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+  heading="OUR CRANE SERVICES INTRODUCTION"
+  text="We are the company, which owns and supplies, Mobile Telescopic, Crawler and hydra cranes, since 1985.We are specialized in erection ,Fabrication, mantling, dismantling [ Bridge and Road works...], also in Loading and Unloading in shipyards, using telescopic, Crawler and hydra cranes. We have all India work experience. We provide cost effective, timely and customer oriented service.Our valuable customers include L&T, BHEL, Chettinad Cements, and Rane to name a few.Moreover, we have vast working experience in State and Central Government projects, such as working for Indian Railways, BHEL and Karnataka State's drinking water pipe laying project and underground drainage pipe laying project for the Bangalore city.We also provide mechanical repair services and also offer technical assistance for buying and selling of cranes at an affordable cost."
+  img1={Mountain3}
+   img2={Mountain5}
+   img6={Mountain7}
+   img5={Mountain8}
   />
+  </div>
+  <div>
+  <DestinationData
+  className ="first-des-reverse"
+  heading="Hydra Cranes"
+  text="We are able to offer superior quality of Crawler Cranes that are widely used in the construction and engineering industry. Our cranes are equipped with anti-friction bearings�?.."
+  img1={Mountain3}
+   img2={Mountain5}
+   img6={Mountain7}
+   img5={Mountain8}
+  />
+  </div>
+  <div>
+    
+  <DestinationData
+  className ="first-des-reverse"
+  heading="MOBILE TELESCOPIC CRANES"
+  text="Enriched with vast industrial experience, we are involved in offering complete Mobile Telescopic Crane Rental. We are extensively popular among our clients owing to our transparent business policies and client centric approach. Owing to our state-of-the-art infrastructure we have been able to offer our clients upgraded models of Mobile Telescopic Crane on rental basis. Besides, we deliver only well conditioned Mobile Telescopic Crane to our clients"
+  img1={Mountain3}
+   img2={Mountain5}
+   img6={Mountain7}
+   img5={Mountain8}
+  />
+
+
+  </div>
+
         </div>
 
 

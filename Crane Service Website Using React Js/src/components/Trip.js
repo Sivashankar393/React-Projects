@@ -9,7 +9,7 @@ import Trip3 from "../assets/imag12.jpg"
 function Trip ()  {
   return (
     <div className="trip">
-        <h1>Recent Trip</h1>
+        <h1>Karur Crane Service</h1>
 
         <p>
             you can discoverunique destination using google Maps

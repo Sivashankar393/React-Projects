@@ -13,11 +13,18 @@
 .hero-mid h1{
     padding-top: 4rem !important;
 }
+.icon{
+    display: none;
+}
 
 .img{
+    display: flex;
     width: 100%;
     height: 100%;
     object-position: center;
+    justify-content: center;
+    padding-top: 2rem 4rem;
+    
 }
 
 .hero-text{
@@ -31,7 +38,7 @@
 .hero-text h1 {
     font-size: 3rem;
     font-weight: 800;
-    background: #fff;
+    background: #1b1818;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -40,7 +47,7 @@
     font-size: 1.3rem;
     background: none;
     padding: 0.5rem 0 2rem 0;
-    color: bisque;
+    color: rgb(241, 237, 231);
 }
 
 .hero-text .show{

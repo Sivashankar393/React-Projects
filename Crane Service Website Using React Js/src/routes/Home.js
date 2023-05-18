@@ -9,12 +9,7 @@ function Home (){
         <Navbar/>
         <Hero
         cName="hero"
-        heroImg="https://as1.ftcdn.net/v2/jpg/00/22/43/56/1000_F_22435669_2k90nSnt27pZ3xmpnHbXlsHdJoXxmBBf.jpg"
-
-        title="karur creane open in 24 hours"
-        text="Choose your Favourite Destination"
-        buttonText="Travel plan"
-        url="/"
+        heroImg="https://static.wixstatic.com/media/7d88e0_e3f1a88ce3974dd8a18ca5c1dcc68f3e~mv2.jpg/v1/fill/w_1303,h_474,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CraneImage1_edited.jpg"  
         btnClass="show"
         />
         <Destination/>
@@ -25,3 +20,6 @@ function Home (){
     )
 }   
 export default Home;
+
+
+

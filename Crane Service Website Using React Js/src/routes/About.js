@@ -7,13 +7,14 @@ import AboutUs from"../components/AboutUs";
 function About(){
     return (
         <>
-        <h1>About page</h1>
+        <h1>About Us</h1>
         <Hero 
         cName=".hero-mid"
-        heroImg={AboutImg}
+        heroImg="https://lh3.googleusercontent.com/p/AF1QipMDvxAUc6bPjwjYLRFipAsIbixybyxQXu158tXF=w1080-h608-p-no-v0"
 
         title="About"
         btnClass="hide"
+        text =""
 
 
         />

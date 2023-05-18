@@ -1,20 +1,23 @@
 .destination{
-    margin: 4rem 6rem;
+    margin: 1rem 1rem;
  }
 
  .destination h1{
     font-size: 3rem;
+    color: rgb(10, 10, 10);
+    
  }
 
  .first-des{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
  }
 
+
  .first-des-reverse{
-   display: flex;
+   display: flex; 
    flex-direction: row-reverse;
    align-items: center;
    justify-content: space-between;
@@ -28,7 +31,7 @@
  }
 
  .des-text h2{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
  }
 
  .image{

@@ -42,8 +42,10 @@ t-card{
 }
 .tripcard{
     flex-direction: column;
+    justify-content: center;
+    width: 111%;
 }
 .t-card{
-width:100%;
+width:155%;
 margin-bottom: 1.5rem;
 }

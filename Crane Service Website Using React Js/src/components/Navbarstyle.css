@@ -1,40 +1,44 @@
 
 .NavbarItems{
-    background-color: #fff;
+    background-color: #fcb00d;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 30px;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
-    width: 95%;
+    width: 100%;
     height: 80px;
     border-radius: 13px;
     position: fixed;
-    top: 20px;
+    top: 0px;
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
+    font-size: large;
+
 }
 
 .navbar-logo{
-    color: #222;
-    font-size: 2rem;
+    color: #db1111;
+    font-size: 3rem;
     cursor: pointer;
+    font-style: italic;
+    
 }
 
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 40px;
     list-style: none;
     align-items: center;
+    font-style: italic;
 }
 
 .nav-Links{
     text-decoration: none;
-    color: #222;
+    color: #d41515;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 300;
     padding: 0.7rem 1rem;
     white-space: nowrap;
 }
@@ -122,7 +126,7 @@ button:hover{
     }
 
     .nav-Links:hover{
-        background: #01959a;
+        background: #14cdd3;
         transition: none;
     }
 
