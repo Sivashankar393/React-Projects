@@ -2,7 +2,9 @@ import Mountain3 from "../assets/imag3.jpg";
 import Mountain5 from "../assets/imag5.jpg";
 import Mountain7 from "../assets/imag7.jpg";
 import Mountain8 from "../assets/imag8.jpg";
+import Mountain9 from "../assets/imag9.jpg"
 import DestinationData from "./DestinationData";
+
 import "./Destinationstyle.css";
 
 
@@ -35,7 +37,7 @@ const Destination = () =>{
   className ="first-des-reverse"
   heading="Hydra Cranes"
   text="We are able to offer superior quality of Crawler Cranes that are widely used in the construction and engineering industry. Our cranes are equipped with anti-friction bearings�?.."
-  img1={Mountain3}
+  img1={Mountain9}
    img2={Mountain5}
    img6={Mountain7}
    img5={Mountain8}

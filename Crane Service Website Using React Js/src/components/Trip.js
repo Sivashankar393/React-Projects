@@ -1,7 +1,7 @@
 import "./TripStyles.css"
 import TripData from "./TripData"
 import Trip1 from "../assets/imag10.jpg"
-import Trip2 from "../assets/imag11.jpg"
+import Trip2 from "../assets/imag4.jpg"
 import Trip3 from "../assets/imag12.jpg"
 
 
@@ -16,7 +16,7 @@ function Trip ()  {
         </p>
         <div className="tripcard">
         <TripData 
-        image={Trip1}
+        image={Trip2}
         heading ="Car hire at Bangalore is made easy with us. Discover very exciting van, bus rental offers and book online to travel like a king. - Siddeshwara Travels."
         />
         </div>
