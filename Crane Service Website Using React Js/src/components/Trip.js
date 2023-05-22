@@ -9,15 +9,17 @@ import Trip3 from "../assets/imag12.jpg"
 function Trip ()  {
   return (
     <div className="trip">
-        <h1>Karur Crane Service</h1>
+        <h1>MOBILE TELESCOPIC CRANES</h1>
 
         <p>
-            you can discoverunique destination using google Maps
+        Enriched with vast industrial experience, we are involved in offering complete Mobile Telescopic Crane Rental. We are extensively popular among our clients owing to our transparent business policies and client centric approach. Owing to our state-of-the-art infrastructure we have been able to offer our clients upgraded models of Mobile Telescopic Crane on rental basis. Besides, we deliver only well conditioned Mobile Telescopic Crane to our clients
         </p>
         <div className="tripcard">
+          <br/>
+          <br/>
         <TripData 
         image={Trip2}
-        heading ="Car hire at Bangalore is made easy with us. Discover very exciting van, bus rental offers and book online to travel like a king. - Siddeshwara Travels."
+     
         />
         </div>
     </div>

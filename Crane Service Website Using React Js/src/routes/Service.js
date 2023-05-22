@@ -5,13 +5,13 @@ import Footer from"../components/Footer";
 import Trip from "../components/Trip"
 
 function Service (){
-    return (
+    return (    
         <>
          <Navbar/>
         <Hero 
         cName=".hero-mid"heroImg={AboutImg} title="Serivice"btnClass="hide"
         />
- <Trip/>
+
 
         </>
     );

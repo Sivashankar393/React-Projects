@@ -1,12 +1,12 @@
 import Hero from "../components/Hero"
 import Navbar from"../components/Navbar"
-import AboutImg from"../assets/imag3.jpg"   
-import Footer from"../components/Footer";
+import AboutImg from"../assets/imag4.jpg"   
 import AboutUs from"../components/AboutUs";
 
 function About(){
     return (
         <>
+          <Navbar/>
         <h1>About Us</h1>
         <Hero 
         cName=".hero-mid"
@@ -19,6 +19,7 @@ function About(){
 
         />
         <AboutUs/>
+    
         </>
     );
 }

@@ -1,6 +1,7 @@
 import "./Herostyle.css";
 function Hero (props){
     return (<>
+    <br/>  <br/>
     <div className={props.cName}>
         <img alt="HerpImg" src={props.heroImg}/>
 

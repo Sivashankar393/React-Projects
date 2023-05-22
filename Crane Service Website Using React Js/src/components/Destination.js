@@ -12,13 +12,16 @@ const Destination = () =>{
     return(
         <div className="destination">
           <h1>Who We Are !</h1>  
-        
-          <li>Kongu Cranes rental service is one of the largest in Karur, TamilNadu. Our services ensure the timeliness and efficiency of your resources. We have the resources and the manpower to specialize in maintenance shutdowns, plant installations and equipment removal.
+          <br/>
+ 
+          <li>Karur Cranes Service rental service is one of the largest in Karur, TamilNadu. Our services ensure the timeliness and efficiency of your resources. We have the resources and the manpower to specialize in maintenance shutdowns, plant installations and equipment removal.
 
 ​</li>
-<li>With a huge network of service team expertise and a complete range of service products, Kongu Cranes Service provides all over Karur and other parts like Salem, Trichy and Namakkal.</li>
+<br/><br/>
+<li>With a huge network of service team expertise and a complete range of service products, Kongu Cranes Service provides all over Karur and other parts like Salem, Trichy and Namakkal.</li><br/><br/>
 
 <li>We are "An Equipment Rental Company" and recently we've added few new assets to our list which we hope will be helpful to your organization with logistics and material handling needs. This includes HYDRAULIC CRANES, TELESCOPIC CRANES, CRAWLER CRANES, TOWER CRANES, FORKLIFTS, and TOWING VEHICLES.</li>
+
 
    <div>
 
@@ -43,26 +46,17 @@ const Destination = () =>{
    img5={Mountain8}
   />
   </div>
-  <div>
-    
-  <DestinationData
-  className ="first-des-reverse"
-  heading="MOBILE TELESCOPIC CRANES"
-  text="Enriched with vast industrial experience, we are involved in offering complete Mobile Telescopic Crane Rental. We are extensively popular among our clients owing to our transparent business policies and client centric approach. Owing to our state-of-the-art infrastructure we have been able to offer our clients upgraded models of Mobile Telescopic Crane on rental basis. Besides, we deliver only well conditioned Mobile Telescopic Crane to our clients"
-  img1={Mountain3}
-   img2={Mountain5}
-   img6={Mountain7}
-   img5={Mountain8}
-  />
 
 
-  </div>
+
+
 
         </div>
 
 
     );
 };
+
 
 export default Destination;
 
